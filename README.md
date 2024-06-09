@@ -178,10 +178,8 @@ Please note that the terms "async" in this context do not relate to the async-IO
 Python, but rather follow a Async-style naming convention specific to the dvs_printf module.  
 
 ---
+[async_demo.mov](https://github.com/dhruvan-vyas/test_try/assets/98950841/e6aea525-c2c4-4383-b66e-89c655d8f5ac)
 
-<video autoplay="" loop="true" controls="">
-<source type="video/mp4" src="https://github.com/dhruvan-vyas/test_try/assets/98950841/e6aea525-c2c4-4383-b66e-89c655d8f5ac">
-</video>
 
 ### Speed
 Speed defins printf's animation speed, `default speed is 3` you can set `speed from ( 1 to 6 or 7)`
