@@ -12,8 +12,11 @@
 </div> 
 
 <!-- <img src="https://github.com/dhruvan-vyas/dvs_printf/blob/main/card.png?raw=true"> -->
-<img src="card.png">
 
+<img src="https://github.com/dhruvan-vyas/test_try/blob/main/card.png?raw=true">
+
+<img src="card.png">
+ 
 enhance way to handle console output for Python projects. 
 The module offers `printf` style animation functions that designed to enhance the 
 visual appearance of terminal-based Python projects,
@@ -98,9 +101,7 @@ printf(any, str, list, [tuple, set], dict, int, float,...)
 
 ### style
 
-https://github.com/dhruvan-vyas/dvs_printf/assets/98950841/45c953d2-e5cf-42d6-a012-d499addcdedb
-
-Exemple Video==>
+Example Video==>
 
 
 style defins different types of console output animation.<br>
@@ -143,7 +144,9 @@ printf(values, style="center")
 Introducing a novel printing 'style—async'. This style revolutionizes the way multiple lines are printed simultaneously, 
 optimizing display in both spacious and constrained terminals.
 
-Exemple Video==>
+<video autoplay="" loop="true" controls="">
+<source type="video/mp4" src="async_demo.mov">
+</video>
 
 *Key Features:*
 - *`Simultaneous Printing:`* Print multiple lines simultaneously when there's ample space in the terminal.
@@ -180,9 +183,7 @@ Python, but rather follow a Async-style naming convention specific to the dvs_pr
 Speed defins printf's animation speed, `default speed is 3` you can set `speed from ( 1 to 6 or 7)`
 each style's speed is littel difrent 
 
-https://github.com/dhruvan-vyas/dvs_printf/assets/98950841/fb731c6e-235b-4120-bc9a-ec0440abbd0d
-
-Exemple Video==>
+Example Video==>
 
 * 1 = *Very Slow*
 * 2 = *Slow*
