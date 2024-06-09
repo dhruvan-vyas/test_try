@@ -144,9 +144,6 @@ printf(values, style="center")
 Introducing a novel printing 'style—async'. This style revolutionizes the way multiple lines are printed simultaneously, 
 optimizing display in both spacious and constrained terminals.
 
-<video autoplay="" loop="true" controls="">
-<source type="video/mp4" src="async_demo.mov">
-</video>
 
 *Key Features:*
 - *`Simultaneous Printing:`* Print multiple lines simultaneously when there's ample space in the terminal.
@@ -164,20 +161,27 @@ optimizing display in both spacious and constrained terminals.
 printf(
     value_5_Lines,  
     style="async"      # for each line given
-) 
-```
-```python
+)
+
+
 printf(
-    "This is line 1\nThis is line 2\nThis is line 3", 
-    "This is line 4\nThis is line 5", 
-    interval=1
-    style="async 2",   # for print sets of "2" lines from given. Ex:[1-2, 3-4, 5]
-) 
-```    
+    value_10_Lines,  
+    style="async 4"     # to printf set of 4 line from given Ex: [1-4, 5-8, 9-10]  
+)
+```
+
+
+https://github.com/dhruvan-vyas/test_try/assets/98950841/e6aea525-c2c4-4383-b66e-89c655d8f5ac
+
 
 Please note that the terms "async" in this context do not relate to the async-IO functions in   
 Python, but rather follow a Async-style naming convention specific to the dvs_printf module.  
 
+---
+
+<video autoplay="" loop="true" controls="">
+<source type="video/mp4" src="https://github.com/dhruvan-vyas/test_try/assets/98950841/e6aea525-c2c4-4383-b66e-89c655d8f5ac">
+</video>
 
 ### Speed
 Speed defins printf's animation speed, `default speed is 3` you can set `speed from ( 1 to 6 or 7)`
