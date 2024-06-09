@@ -146,8 +146,6 @@ optimizing display in both spacious and constrained terminals.
 
 
 
-https://github.com/dhruvan-vyas/test_try/assets/98950841/2d2aaf18-c328-477e-a8ce-403fbada72b5
-
 
 
 *Key Features:*
