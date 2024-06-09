@@ -144,9 +144,9 @@ printf(values, style="center")
 Introducing a novel printing 'style—async'. This style revolutionizes the way multiple lines are printed simultaneously, 
 optimizing display in both spacious and constrained terminals.
 
-
-
-
+<video autoplay="" loop="true" controls="">
+<source type="video/mp4" src="async_demo.mov">
+</video>
 
 *Key Features:*
 - *`Simultaneous Printing:`* Print multiple lines simultaneously when there's ample space in the terminal.
@@ -242,7 +242,14 @@ printf("hello world",
 matrix data modifier works with `numpy, pytorch, tensorflo, pandas, list`, Default = False <br>
 can set as `True, "true", "show"`. getmat parameter directly passing to the list_of_str 
 
-more about getmat on <a href=#any-to-list style="text-decoration:none">list_of_str</a> function.
+more about getmat on [list_of_str](#list_of_str-function) function.
+
+<!-- list_of_str-Function -->
+<a href="#list_of_str-function" style="text-decoration:none">
+
+list of str
+</a> 
+
 
 
 ---
