@@ -144,9 +144,11 @@ printf(values, style="center")
 Introducing a novel printing 'style—async'. This style revolutionizes the way multiple lines are printed simultaneously, 
 optimizing display in both spacious and constrained terminals.
 
-<video autoplay="" loop="true" controls="">
-<source type="video/mp4" src="async_demo.mov">
-</video>
+
+
+https://github.com/dhruvan-vyas/test_try/assets/98950841/2d2aaf18-c328-477e-a8ce-403fbada72b5
+
+
 
 *Key Features:*
 - *`Simultaneous Printing:`* Print multiple lines simultaneously when there's ample space in the terminal.
