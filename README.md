@@ -23,6 +23,10 @@ visual appearance of terminal-based Python projects,
 Key features include different animation styles, customizable speeds, and flexible formatting options. 
 
 
+
+https://github.com/dhruvan-vyas/test_try/assets/98950841/556aa4a3-c280-4085-82b0-dadcad283f3c
+
+
 https://github.com/dhruvan-vyas/test_try/assets/98950841/06fc32f5-717d-4606-81b3-b5d73bce6cf9
 
 
