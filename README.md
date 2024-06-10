@@ -141,12 +141,9 @@ printf(values, style="center")
 
 #### ****async Style**** 
 
+
 Introducing a novel printing 'style—async'. This style revolutionizes the way multiple lines are printed simultaneously, 
 optimizing display in both spacious and constrained terminals.
-
-<video autoplay="" loop="true" controls="">
-<source type="video/mp4" src="async_demo.mov">
-</video>
 
 *Key Features:*
 - *`Simultaneous Printing:`* Print multiple lines simultaneously when there's ample space in the terminal.
@@ -163,17 +160,25 @@ optimizing display in both spacious and constrained terminals.
 ```python
 printf(
     value_5_Lines,  
-    style="async"      # for each line given
+    style="async"       # to printf each line given
+) 
+
+printf(
+    value_10_Lines,  
+    style="async 4"     # to printf set of 4 line from given Ex: [1-4, 5-8, 9-10]  
 ) 
 ```
-```python
+<video autoplay="" loop="true" controls="">
+<source type="video/mp4" src="videos/async_demo.mov">
+</video>
+<!-- ```python
 printf(
     "This is line 1\nThis is line 2\nThis is line 3", 
     "This is line 4\nThis is line 5", 
     interval=1
     style="async 2",   # for print sets of "2" lines from given. Ex:[1-2, 3-4, 5]
 ) 
-```    
+```     -->
 
 Please note that the terms "async" in this context do not relate to the async-IO functions in   
 Python, but rather follow a Async-style naming convention specific to the dvs_printf module.  
