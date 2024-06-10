@@ -5,7 +5,7 @@
     
 [![PyPI Version](https://badge.fury.io/py/dvs-printf.svg)](https://badge.fury.io/py/dvs-printf)
 [![Build Status](https://github.com/dhruvan-vyas/dvs_printf/actions/workflows/module_test.yml/badge.svg)](https://github.com/dhruvan-vyas/dvs_printf/actions)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dhruvan-vyas/dvs_printf)](https://github.com/dhruvan-vyas/dvs_printf/releases/tag/v1.3)<br>
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dhruvan-vyas/dvs_printf)](https://github.com/dhruvan-vyas/dvs_printf/releases)<br>
 ![Python Versions](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12-blue)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dhruvan-vyas/dvs_printf/blob/main/LICENSE)
 [![PEP8](https://img.shields.io/badge/PEP8-compliant-brightgreen.svg)](https://www.python.org/dev/peps/pep-0008/) 
@@ -21,14 +21,6 @@ enhance way to handle console output for Python projects.
 The module offers `printf` style animation functions that designed to enhance the 
 visual appearance of terminal-based Python projects,
 Key features include different animation styles, customizable speeds, and flexible formatting options. 
-
-
-
-https://github.com/dhruvan-vyas/test_try/assets/98950841/556aa4a3-c280-4085-82b0-dadcad283f3c
-
-
-https://github.com/dhruvan-vyas/test_try/assets/98950841/06fc32f5-717d-4606-81b3-b5d73bce6cf9
-
 
 dvs_printf module include 3 main function and 1 sub function
 * *[printf](#printf-function)* (core of the module)
@@ -50,10 +42,6 @@ Use Cases:
 
 ---
 <br>
-
-
-https://github.com/dhruvan-vyas/test_try/assets/98950841/29608aee-0f1a-413b-bc19-858af6b612fe
-
 
 
 # installation 
@@ -157,10 +145,6 @@ printf(values, style="center")
 Introducing a novel printing 'style—async'. This style revolutionizes the way multiple lines are printed simultaneously, 
 optimizing display in both spacious and constrained terminals.
 
-<video autoplay="" loop="true" controls="">
-<source type="video/mp4" src="async_demo.mov">
-</video>
-
 *Key Features:*
 - *`Simultaneous Printing:`* Print multiple lines simultaneously when there's ample space in the terminal.
 - *`Adaptive Display:`* Adjusts output to fit within the terminal space, ensuring all lines are visible, even in limited space.<br>
@@ -176,23 +160,28 @@ optimizing display in both spacious and constrained terminals.
 ```python
 printf(
     value_5_Lines,  
-    style="async"      # for each line given
+    style="async"       # to printf each line given
+) 
+
+printf(
+    value_10_Lines,  
+    style="async 4"     # to printf set of 4 line from given Ex: [1-4, 5-8, 9-10]  
 ) 
 ```
-```python
+<video autoplay="" loop="true" controls="">
+<source type="video/mp4" src="videos/async_demo.mov">
+</video>
+<!-- ```python
 printf(
     "This is line 1\nThis is line 2\nThis is line 3", 
     "This is line 4\nThis is line 5", 
     interval=1
     style="async 2",   # for print sets of "2" lines from given. Ex:[1-2, 3-4, 5]
 ) 
-```    
+```     -->
 
 Please note that the terms "async" in this context do not relate to the async-IO functions in   
 Python, but rather follow a Async-style naming convention specific to the dvs_printf module.  
-
----
-[async_demo.mov](https://github.com/dhruvan-vyas/test_try/assets/98950841/e6aea525-c2c4-4383-b66e-89c655d8f5ac)
 
 
 ### Speed
