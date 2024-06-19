@@ -250,7 +250,7 @@ can set as `True, "true", "show"`. getmat parameter directly passing to the list
 more about getmat on [list_of_str](#list_of_str-function) function.
 
 <!-- list_of_str-Function -->
-<a href="#list_of_str-function" style="text-decoration:none">
+<a href="#list_of_str-function" style="text-decoration:none;">
 
 list of str
 </a> 
